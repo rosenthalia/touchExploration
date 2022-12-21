@@ -2,7 +2,8 @@ README.txt
 
 This repository contains code to reproduce analyses and figures from the paper "S1 represents multisensory contexts and somatotopic locations within and outside the bounds of the cortical homunculus" by Rosenthal et al (currently a preprint on bioarxiv).
 
-Preprocessed data to use with the code can be found at [link pending], you will need to download the data and put it in the same folder as the code before running analyses.
+Preprocessed data to use with the code can be found at https://doi.org/10.5281/zenodo.7470655
+You will need to download the data and put it a folder called "Data" in the same directory as the Code directory before running analyses.
 
 FIGURE 1: use figure1_plots.m to plot the individual channel firing rates
 
