@@ -1,0 +1,30 @@
+README.txt
+
+This repository contains code to reproduce analyses and figures from the paper "S1 represents multisensory contexts and somatotopic locations within and outside the bounds of the cortical homunculus" by Rosenthal et al (currently a preprint on bioarxiv).
+
+Preprocessed data to use with the code can be found at [link pending], you will need to download the data and put it in the same folder as the code before running analyses.
+
+FIGURE 1: use figure1_plots.m to plot the individual channel firing rates
+
+FIGURE 2:
+ (a): pairwise linear decoding analysis and associated stats: figure2a_pairwiseModalityDecoding
+ (b) and (c): RDMs were constructed in Python using figure2b_constructRDMs.py, and the resulting save files is loaded into MATLAB for visualization using figure2bc_plotRDMandMDS.m. For python, need Python RSA toolbox (https://github.com/rsagroup/rsatoolbox). Visualized using the MATLAB rsa toolbox(https://github.com/rsagroup/rsatoolbox_matlab) which has been slightly modified for the purposes of this paper.
+
+FIGURE 3:
+ (a): effector generalizing over touch type decoding analysis and associated stats: figure3a_effectorGenDecoding.m
+ (b) and (c): touch type generalizing over effector decoding analysis and associated stats: figure3bc_touchTypeGenDecoding.m
+
+FIGURE 4:
+ (a), (b), (c), (d), and (e): figure4_figure5_tuningAnalysis.m
+ Note (f) is not reproduced here as it requires proprietary software to plot on array maps.
+
+FIGURE 5:
+	(a) and (b): figure4_figure5_tuningAnalysis.m 
+
+SUPPLEMENTAL VIDEO 2: SV2_pairwiseModalityDecoding_smallBins.m
+
+SUPPLEMENTAL VIDEO 3: SV3_effectorGenDecoding_smallBins
+
+SUPPLEMENTAL VIDEO 4: SV4_SV5_touchTypeGenDecoding_smallBins
+
+SUPPLEMENTAL VIDEO 5: SV4_SV5_touchTypeGenDecoding_smallBins
