@@ -55,7 +55,7 @@ binEnds = [2:2:60]; % every 0.1 sec
 numBins = numel(binStarts);
 
 % set name of analysis
-sgt = 'touch-aligned LDA, touch type gen';
+sgt = 'generalize touch type across effector';
 if useSVD == 1
     sgt = [sgt ' on top ' num2str(numSVs) ' dims (SVD)'];
 else

@@ -56,7 +56,7 @@ binEnds = [2:2:60]; % every 0.1 sec
 numBins = numel(binStarts);
 
 % set name of analysis
-sgt = 'touch-aligned LDA, effector gen';
+sgt = 'generalize effector across touch type';
 if useSVD == 1
     sgt = [sgt ' on top ' num2str(numSVs) ' dims (SVD)'];
 else
@@ -213,7 +213,7 @@ f2 = plotConfMats(acc_half,nullacc_half, conds_ty, sgt, numBins, binWidth,...
     1:30, trainType, testType);
 
 % create the video writer with 1 fps
-writerObj = VideoWriter([ videoSavePath '\SV3_PairwiseModalityDecoding.avi']);
+writerObj = VideoWriter([ videoSavePath '\SV3_effectGenDecoding.avi']);
 writerObj.FrameRate = 1;
 % open the video writer
 open(writerObj);
