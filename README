@@ -1,6 +1,6 @@
 README.txt
 
-This repository contains code to reproduce analyses and figures from the paper "S1 represents multisensory contexts and somatotopic locations within and outside the bounds of the cortical homunculus" by Rosenthal et al (currently a preprint on bioarxiv).
+This repository contains code to reproduce analyses and figures from the paper "S1 represents multisensory contexts and somatotopic locations within and outside the bounds of the cortical homunculus" by Rosenthal et al (2023), published in Cell Reports.
 
 Preprocessed data to use with the code can be found at https://doi.org/10.5281/zenodo.7470655
 You will need to download the data and put it a folder called "Data" in the same directory as the Code directory before running analyses.
